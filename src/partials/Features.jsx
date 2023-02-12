@@ -33,7 +33,7 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Skills and Experience</h1>
+            <h1 className="h2 mb-4">Skill and Experience</h1>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
@@ -55,7 +55,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">The Next Web</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer at The Next Web - A Financial Times Company. Lead architecture and development of multisite CMS.</div>
+                    <div className="text-gray-600">Former CTO and Senior Developer at The Next Web - A Financial Times Company. Led architecture and development of multisite CMS.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
