@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import bw from './../images/ro-bw.png';
+
+
 
 function Header() {
-
+  console.log(bw);
   const [top, setTop] = useState(true);
 
   // detect whether user has scrolled the page down by 10px 
@@ -23,7 +26,7 @@ function Header() {
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Ro">
-              <img src="https://busylittlepixels.com/assets/img/ro-bw.jpeg" width="50" height="50" className="rounded-full" />
+              <img src={bw} width="50" height="50" className="rounded-full" />
             </Link>
           </div>
 
