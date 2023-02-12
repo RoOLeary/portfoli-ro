@@ -65,7 +65,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-gray-600 text-center">Now we've got a plan, there's just the matter of the paperwork</p>
+              <p className="text-gray-600 text-center">Now we know the plan, let's scribble some squiggles and get started!</p>
             </div>
 
             {/* 4th item */}

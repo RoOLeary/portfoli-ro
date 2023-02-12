@@ -85,7 +85,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
-                    <div className="text-gray-600">Headless-first, CMS and application Development, business strategy partnership and technical discovery.</div>
+                    <div className="text-gray-600">Co-Founder and CTO of headless-first, CMS and application development, business strategy and technical discovery partnership.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
