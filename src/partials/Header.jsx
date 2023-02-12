@@ -22,8 +22,8 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
-              <img src="../src/images/ro-bw.jpeg" width="50" height="50" className="rounded-full" />
+            <Link to="/" className="block" aria-label="Ro">
+              <img src="https://busylittlepixels.com/assets/img/ro-bw.jpeg" width="50" height="50" className="rounded-full" />
             </Link>
           </div>
 
@@ -31,7 +31,7 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <Link to="/contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
+                <Link to="/#contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
               </li>
               {/* <li>
                 <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">

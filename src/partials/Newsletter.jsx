@@ -2,7 +2,7 @@ import React from 'react';
 
 function Newsletter() {
   return (
-    <section>
+    <section id="contact">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
 
@@ -44,9 +44,10 @@ function Newsletter() {
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-red-600 hover:bg-red-700 shadow" href="#0">Subscribe</a>
+                  <div className="flex flex-col sm:flex-row flex-wrap justify-start max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                    <input type="name" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500 lg:mb-2" placeholder="Your name..." aria-label="Your name..." />
+                    <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500 lg:mb-2" placeholder="Your email…" aria-label="Your email…" />
+                    <a className="btn text-white bg-red-600 hover:bg-red-700 shadow" href="#0">Submit</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
