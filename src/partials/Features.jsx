@@ -55,7 +55,8 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">The Next Web</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer at The Next Web - A Financial Times Company. Led architecture and development of multisite CMS.</div>
+                    <div className="text-gray-600">Former CTO and Senior Developer at The Next Web - A Financial Times Company. Led architecture and development of multisite CMS.
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -111,10 +112,12 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
-                  </div>
+                  <a href="https://thenextweb.com">
+                    <div className="relative inline-flex flex-col">
+                      <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
+                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    </div>
+                  </a>
                 </Transition>
                 {/* Item 2 */}
                 <Transition
@@ -128,10 +131,12 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
-                  </div>
+                  <a href="https://websummit.com">
+                    <div className="relative inline-flex flex-col">
+                      <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
+                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    </div>
+                  </a>
                 </Transition>
                 {/* Item 3 */}
                 <Transition
@@ -145,10 +150,12 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
+                  <a href="https://busylittlepixels.com">
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
+                  </a>
                 </Transition>
               </div>
             </div >

@@ -13,7 +13,7 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">My process...</h2>
+            <h2 className="h2 mb-4">My process. Six steps to success.</h2>
             <p className="text-xl text-gray-600">This, right here, is the winning formula! Founded on "OODA" - Observe, Orient, Decide and Act. This approach has worked both for individual projects, and that of clients and employers ranging in size from startup to corporate.</p>
           </div>
 
