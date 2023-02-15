@@ -64,8 +64,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-gray-600 text-center">Now we know the plan, let's scribble some squiggles and get started!</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">To Go or Not to Go</h4>
+              <p className="text-gray-600 text-center">Now we know the plan, let's scribble some squiggles and get busy!</p>
             </div>
 
             {/* 4th item */}
@@ -82,7 +82,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>              
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Design & Prototyping</h4>
-              <p className="text-gray-600 text-center">Sketches, become wireframes, become designs...</p>
+              <p className="text-gray-600 text-center">Sketches, become designs, designs become wireframes, </p>
             </div>
 
             {/* 5th item */}
@@ -97,7 +97,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Development</h4>
-              <p className="text-gray-600 text-center">...designs become code, functional, usable components, websites and apps</p>
+              <p className="text-gray-600 text-center">...wireframes become code, functional, usable components, websites and apps</p>
             </div>
 
             {/* 6th item */}
