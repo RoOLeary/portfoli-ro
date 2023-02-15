@@ -48,11 +48,11 @@ function Testimonials() {
                   <img className="relative rounded-full" src={TestimonialImage} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “ Ronan needs to get out more. “
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Ronan</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-red-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>Assistant Junior Vice-President</span> <a className="text-red-600 hover:underline" href="#0">@ro_oleary</a>
                 </div>
               </div>
 
