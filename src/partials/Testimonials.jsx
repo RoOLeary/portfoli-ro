@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TestimonialImage from '/assets/ro-bw.d434f415.png';
+import TestimonialImage from '../images/ro-bw.png';
 
 function Testimonials() {
   return (
