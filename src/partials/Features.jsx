@@ -4,6 +4,11 @@ import Transition from '../utils/Transition';
 import FeaturesBg from '../images/features-bg.png';
 import FeaturesElement from '../images/features-element.png';
 
+import WSBg from '../images/WS-Bg.png';
+import TNWBg from '../images/TNWBg.png';
+import BlpBg from '../images/BlpBg.png';
+
+
 function Features() {
 
   const [tab, setTab] = useState(1);
@@ -44,7 +49,6 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Some of my work</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -114,8 +118,8 @@ function Features() {
                 >
                   <a href="https://thenextweb.com">
                     <div className="relative inline-flex flex-col">
-                      <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                      <img className="md:max-w-none mx-auto rounded" src={TNWBg} width="500" height="462" alt="Features bg" />
+                      {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </a>
                 </Transition>
@@ -133,8 +137,8 @@ function Features() {
                 >
                   <a href="https://websummit.com">
                     <div className="relative inline-flex flex-col">
-                      <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                      <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                      <img className="md:max-w-none mx-auto rounded" src={WSBg} width="500" height="462" alt="Features bg" />
+                      {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </a>
                 </Transition>
@@ -152,8 +156,8 @@ function Features() {
                 >
                   <a href="https://busylittlepixels.com">
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={BlpBg} width="500" height="462" alt="Features bg" />
+                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                   </a>
                 </Transition>
