@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TestimonialImage from '../images/ro-bw.png';
+import TestimonialImage from '../images/pablo.jpeg';
 
 function Testimonials() {
   return (
@@ -48,11 +48,11 @@ function Testimonials() {
                   <img className="relative rounded-full" src={TestimonialImage} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Ronan needs to get out more. “
+                  “Ronan is a fantastic team player who genuinely cares about delivering a first-rate experience to customers, users and stakeholders. Not only he has a deep technical understanding, but he also knows how to apply that knowledge in the most efficient way. Ro is a humble, intelligent, hard working man that will go out of his way to ensure the success of any project. 10/10 would recommend! “
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Ronan</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Pablo Román</cite>
                 <div className="text-gray-600">
-                  <span>Assistant Junior Vice-President</span> <a className="text-red-600 hover:underline" href="#0">@ro_oleary</a>
+                  <span>CTO at Squares. ex-CTO at TNW</span> <a className="text-red-600 hover:underline" href="#0">@pabloroman</a>
                 </div>
               </div>
 
