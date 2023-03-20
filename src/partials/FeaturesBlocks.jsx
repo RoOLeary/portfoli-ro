@@ -13,8 +13,7 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">My process. Six steps to success.</h2>
-            <p className="text-xl text-gray-600">This, right here, is how cool stuff gets made.</p>
+            <h2 className="h2 mb-4">My process. Six steps to building cool stuff.</h2>
           </div>
 
           {/* Items */}
