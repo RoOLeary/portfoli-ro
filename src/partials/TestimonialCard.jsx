@@ -24,7 +24,7 @@ const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) 
             </blockquote>
             <cite className="block font-bold text-lg not-italic mb-1">{author}</cite>
             <div className="text-gray-600">
-                <span>{position}</span> <a className="text-red-600 hover:underline" href="#0">{twitter}</a>
+                <span>{position}</span> {twitter ? <a className="text-red-600 hover:underline" href={`https://twitter.com/${twitter}`}>{twitter}</a> : null}
             </div>
         </div>
     </div>

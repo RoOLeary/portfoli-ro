@@ -12,23 +12,21 @@ function Testimonials() {
   const testimonials = [
     {
       quote: '“Ronan is a fantastic team player who genuinely cares about delivering a first-rate experience to customers, users and stakeholders. Not only he has a deep technical understanding, but he also knows how to apply that knowledge in the most efficient way. Ro is a humble, intelligent, hard working man that will go out of his way to ensure the success of any project. 10/10 would recommend! “', 
-      author: 'Pablo Roman', 
+      author: 'Pablo Román', 
       image: Pablo,
-      twitter: '@pabloroman',
+      twitter: 'pabloroman',
       position: 'CTO at Squares. ex-CTO at TNW' 
     },
     {
       quote: '“Ronan is an excellent developer. He\'s an accomplished coder and strategist, not to mention an engaging and reliable person to work with. I\'m happy to endorse and recommend Ronan.“', 
       author: 'Paddy Ryan', 
       image: Paddy,
-      twitter: '@paddyphillipryan',
       position: 'CTO Nutriband, Founder Run Republic' 
     },
     {
       quote: '“It is pleasure to highly recommended Ronan O\'Leary. Ronan is an exceptional web developer. He has an excellent ability to effectively listen and to proceed with each task at hand, both large and small. Ronan is detail oriented, well organised and also cares about visual style guides, comps, and code examples to work collaboratively to develop a user interface and template system that meets our needs. “', 
       author: 'Lukasz Kulakowki', 
       image: Lukasz,
-      twitter: '@lukasz',
       position: 'Integrated Art Director EF' 
     }
   ]
