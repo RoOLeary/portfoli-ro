@@ -55,7 +55,7 @@
 }
 
 .testPanel{
-    animation: slideaway 500ms;
+    animation: slideaway 1000ms;
     display: none;
 
 }

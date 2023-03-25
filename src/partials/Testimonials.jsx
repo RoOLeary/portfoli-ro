@@ -18,7 +18,7 @@ function Testimonials() {
       position: 'CTO at Squares. ex-CTO at TNW' 
     },
     {
-      quote: '“Ronan is an excellent developer. He\'s an accomplished coder and strategist, a kind, sharp and reliable person to work with. I\'m happy to endorse and recommend Ronan.“', 
+      quote: '“Ronan is an excellent developer. He\'s an accomplished coder and strategist, not to mention an engaging and reliable person to work with. I\'m happy to endorse and recommend Ronan.“', 
       author: 'Paddy Ryan', 
       image: Paddy,
       twitter: '@paddyphillipryan',
