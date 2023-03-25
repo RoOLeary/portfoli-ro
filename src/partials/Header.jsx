@@ -5,7 +5,7 @@ import bw from './../images/ro-bw.png';
 
 
 function Header() {
-  console.log(bw);
+
   const [top, setTop] = useState(true);
 
   // detect whether user has scrolled the page down by 10px 
