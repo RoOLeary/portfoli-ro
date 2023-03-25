@@ -2,7 +2,7 @@ import React from 'react';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative aos-init aos-animate">
+    <section className="relative aos-init" data-aos="zoom-y-in">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>

@@ -29,11 +29,11 @@
 }
 
 .one{
-    @apply bg-red-500 hover:bg-red-300 hover:drop-shadow-lg
+    @apply bg-red-500 hover:bg-black hover:drop-shadow-lg
 }
 
 .two{
-    @apply bg-purple-600 hover:bg-purple-300 hover:drop-shadow-lg
+    @apply bg-purple-600 hover:bg-red-500 hover:drop-shadow-lg
 }
 
 
