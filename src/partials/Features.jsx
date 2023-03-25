@@ -38,9 +38,9 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Skill and Experience</h1>
-            <p className="text-xl text-gray-600">I am an experienced Web Developer, Manager, Tech Lead, former CTO and consultant. For over a decade, I have been honing web development, team set-up, growth and management skills. 
-            I have worked with several large companies - mostly in the advertising, events and media spaces - and formulated and implemented web and digital strategies for huge audiences.
+            <h1 className="h2 mb-4">Skills and Experience</h1>
+            <p className="text-xl text-gray-600">I am an experienced Web Developer, Manager, Tech Lead, former CTO and consultant. For over a decade, I have been honing my web development, team development, growth and management skills. 
+            I have worked with several large companies - mostly in the advertising, events and media spaces - and formulated and implemented web and digital strategies for huge audiences. <br /><br />And I really like to build websites.
             </p>
           </div>
 
