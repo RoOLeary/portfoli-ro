@@ -7,9 +7,9 @@ const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) 
   
   return (
     <div
-      className={`${
-        isActive ? "opacity-100" : "opacity-0 hidden"
-      } transition-opacity duration-500 ease-in-out`}
+      className={`testPanel${
+        isActive ? " active" : ""
+      }`}
     >
         
         <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">

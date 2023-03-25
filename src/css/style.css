@@ -25,7 +25,7 @@
 
 
 .column{
-    @apply w-full md:w-1/2 text-center p-24 border rounded transition duration-150 ease-in-out shadow-sm
+    @apply w-full md:w-1/2 text-center p-24 border rounded transition duration-150 ease-in-out shadow-sm transform hover:-translate-y-1 hover:scale-95
 }
 
 .one{
@@ -49,7 +49,18 @@
     
 }
 
-.testPanel__active{
-    position: absolute;
-    isolation: isolate;
+@keyframes slideaway {
+  from { opacity: 0; }
+  to { opacity: 1;}
+}
+
+.testPanel{
+    animation: slideaway 500ms;
+    display: none;
+
+}
+
+.testPanel.active{
+    display: block;
+    opacity: 1;
 }
