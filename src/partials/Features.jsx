@@ -27,7 +27,7 @@ function Features() {
   }, [tab])
 
   return (
-    <section className="relative">
+    <section className="relative" id="about">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -39,7 +39,9 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Skill and Experience</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-xl text-gray-600">I am a Web Developer, an Engineering Manager, Tech Lead, former CTO and consultant. For over a decade, I have been honing web development, team set-up, growth and management skills. 
+            I have worked at (and with) some well-known companies, mostly in the events and media space and formulated digital strategies implemented for enormous audiences.
+            </p>
           </div>
 
           {/* Section content */}
@@ -59,7 +61,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">The Next Web</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer at The Next Web - A Financial Times Company. Led architecture and development of multisite CMS.
+                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com">The Next Web</a> - A Financial Times Company. Led architecture and development of multisite CMS.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

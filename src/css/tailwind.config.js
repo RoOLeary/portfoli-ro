@@ -72,6 +72,9 @@ module.exports = {
         '5xl': '3.25rem',
         '6xl': '5.5rem',
       },
+      gap:{
+        'gap-4': '0.25em'
+      },
       inset: {
         '1/2': '50%',
         'full': '100%',

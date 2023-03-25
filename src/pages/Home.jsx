@@ -4,6 +4,7 @@ import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
+import Columns from '../partials/Columns';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
@@ -26,6 +27,7 @@ function Home() {
         <Testimonials />
         <Newsletter />
 
+        {/* <Columns /> */}
       </main>
 
       {/*  Site footer */}

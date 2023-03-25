@@ -40,7 +40,7 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Originally from Dublin, Ireland, now based in Amsterdam, I'm a versatile web professional and with over 13 years experience developing, scaling and optimising large scale websites and applications with my (current) favourite/go-to tools: Craft CMS, WordPress, Nextjs, React, Tailwind and SCSS</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">More About Me</a>
+                  <a className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#about">Skills/Experience</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href={Pdf}>CV/Resumé</a>
