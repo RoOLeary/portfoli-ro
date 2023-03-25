@@ -6,9 +6,11 @@ const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) 
 
   
   return (
-    <div className={`${
-        isActive ? "opacity-100" : "opacity-0 relative"
-      } transition-opacity duration-500 ease-in-out absolute w-full mx-auto`}>
+    <div
+      className={`${
+        isActive ? "block" : "hidden"
+      } transition-display duration-500 ease-in-out`}
+    >
         <div className="text-center md:px-12 py-8 pt-20 mx-4 md:mx-0">
             <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                 <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-red-600" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +18,7 @@ const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) 
                 </svg>
                 <img className="relative rounded-full" src={image} width="96" height="96" alt="Testimonial 01" />
             </div>
-            <blockquote className="text-sm md:text-xl font-medium mb-4">
+            <blockquote className="text-sm md:text-xl font-normal mb-4">
             {quote}
             </blockquote>
             <cite className="block font-bold text-lg not-italic mb-1">{author}</cite>

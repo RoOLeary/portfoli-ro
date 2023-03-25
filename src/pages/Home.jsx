@@ -25,12 +25,13 @@ function Home() {
         <FeaturesHome />
         <FeaturesBlocks />
         <Testimonials />
-        <Newsletter />
+        
 
         {/* <Columns /> */}
       </main>
 
       {/*  Site footer */}
+      <Newsletter />
       <Footer />
 
     </div>
