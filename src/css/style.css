@@ -25,15 +25,15 @@
 
 
 .column{
-    @apply w-full md:w-1/2 text-center p-24 border rounded transition duration-150 ease-in-out shadow-sm transform hover:-translate-y-1 hover:scale-95
+    @apply w-full md:w-1/2 text-center p-24 border rounded transition duration-150 ease-in-out shadow-sm transform hover:-translate-y-1 hover:scale-105 hover:z-10 hover:shadow-lg
 }
 
 .one{
-    @apply bg-red-500 hover:bg-black hover:drop-shadow-lg
+    @apply bg-red-600 hover:bg-red-500 hover:drop-shadow-lg
 }
 
 .two{
-    @apply bg-purple-600 hover:bg-red-500 hover:drop-shadow-lg
+    @apply bg-purple-600 hover:bg-purple-500 hover:drop-shadow-lg
 }
 
 
