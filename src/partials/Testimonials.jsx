@@ -1,8 +1,51 @@
-import React from 'react';
-
-import TestimonialImage from '../images/pablo.jpeg';
+import React, { useEffect, useState } from 'react';
+import TestimonialCard from './TestimonialCard';
+import Pablo from '../images/pablo.jpeg';
+import Lukasz from '../images/lukasz.jpeg';
 
 function Testimonials() {
+  
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const indicatorSlide = currentSlide + 1;
+
+  const testimonials = [
+    {
+      quote: '“Ronan is a fantastic team player who genuinely cares about delivering a first-rate experience to customers, users and stakeholders. Not only he has a deep technical understanding, but he also knows how to apply that knowledge in the most efficient way. Ro is a humble, intelligent, hard working man that will go out of his way to ensure the success of any project. 10/10 would recommend! “', 
+      author: 'Pablo Roman', 
+      image: Pablo,
+      twitter: '@pabloroman',
+      position: 'CTO at Squares. ex-CTO at TNW' 
+    },
+    {
+      quote: '“It is pleasure to highly recommended Ronan O\'Leary. Ronan is an exceptional web developer. He has an excellent ability to effectively listen and to proceed with each task at hand, both large and small. Ronan is detail oriented, well organised and also cares about visual style guides, comps, and code examples to work collaboratively to develop a user interface and template system that meets our needs. “', 
+      author: 'Lukasz Kulakowki', 
+      image: Lukasz,
+      twitter: '@lukasz',
+      position: 'Integrated Art Director EF' 
+    }
+  ]
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((currentSlide) =>
+        currentSlide === testimonials.length - 1 ? 0 : currentSlide + 1
+      );
+    }, 7000);
+    return () => clearInterval(interval);
+  }, [testimonials.length]);
+
+  const handlePrevSlide = () => {
+    setCurrentSlide((currentSlide) =>
+      currentSlide === 0 ? testimonials.length - 1 : currentSlide - 1
+    );
+  };
+
+  const handleNextSlide = () => {
+    setCurrentSlide((currentSlide) =>
+      currentSlide === testimonials.length - 1 ? 0 : currentSlide + 1
+    );
+  };
+
   return (
     <section className="relative">
 
@@ -39,22 +82,18 @@ function Testimonials() {
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
-              {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-red-600" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                  </svg>
-                  <img className="relative rounded-full" src={TestimonialImage} width="96" height="96" alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “Ronan is a fantastic team player who genuinely cares about delivering a first-rate experience to customers, users and stakeholders. Not only he has a deep technical understanding, but he also knows how to apply that knowledge in the most efficient way. Ro is a humble, intelligent, hard working man that will go out of his way to ensure the success of any project. 10/10 would recommend! “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Pablo Román</cite>
-                <div className="text-gray-600">
-                  <span>CTO at Squares. ex-CTO at TNW</span> <a className="text-red-600 hover:underline" href="#0">@pabloroman</a>
-                </div>
-              </div>
+            {testimonials.map((testimonial, index) => (
+              <TestimonialCard
+                key={index}
+                quote={testimonial.quote}
+                author={testimonial.author}
+                image={testimonial.image}
+                twitter={testimonial.twitter}
+                position={testimonial.position}
+                isActive={index === currentSlide}
+              />
+              
+            ))}
 
             </div>
           </div>
