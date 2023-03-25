@@ -78,15 +78,15 @@ function Testimonials() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center mb-20">
             <h2 className="h2 mb-4">What others say...</h2>
           </div>
 
           
 
           {/* Testimonials */}
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-            <div className="border-2 border-gray-200 rounded bg-white">
+          <div className="max-w-3xl mx-auto" data-aos="zoom-y-out">
+            <div className="relative border-2 border-gray-200 rounded bg-white">
             {/* <span className="-mt-8 font-black text-center">{indicatorSlide} / {testimonials.length}</span> */}
              
               

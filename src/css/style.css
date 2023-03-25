@@ -48,3 +48,8 @@
     margin-top: 5em;
     
 }
+
+.testPanel__active{
+    position: absolute;
+    isolation: isolate;
+}

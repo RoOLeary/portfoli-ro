@@ -108,6 +108,10 @@ module.exports = {
         '10': '2.5rem',
         '48': '12rem',
       },
+      margin: {
+        'mt-8': '32rem',
+        '48': '12rem',
+      },
       opacity: {
         '90': '0.9',
       },
