@@ -33,7 +33,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
-              <p className="text-gray-600 text-center">Please to meet you (hope you guessed my name.)</p>
+              <p className="text-gray-600 text-center">Please allow me to introduce myself...</p>
             </div>
 
             {/* 2nd item */}
