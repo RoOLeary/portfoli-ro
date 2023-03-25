@@ -40,7 +40,7 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Skill and Experience</h1>
             <p className="text-xl text-gray-600">I am an experienced Web Developer, Manager, Tech Lead, former CTO and consultant. For over a decade, I have been honing web development, team set-up, growth and management skills. 
-            I have worked with some well-known companies - mostly in the events and media space - and formulated and implemented web and digital strategies for huge audiences.
+            I have worked with several large companies - mostly in the advertising, events and media spaces - and formulated and implemented web and digital strategies for huge audiences.
             </p>
           </div>
 
