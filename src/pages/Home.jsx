@@ -9,6 +9,7 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
+import StepForm from '../partials/StepForm';
 
 function Home() {
   return (
@@ -29,9 +30,10 @@ function Home() {
 
         {/* <Columns /> */}
       </main>
-
+     
       {/*  Site footer */}
       <Newsletter />
+      <StepForm />
       <Footer />
 
     </div>

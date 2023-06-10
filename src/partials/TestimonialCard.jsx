@@ -1,4 +1,5 @@
 import React from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import TestimonialImage from '../images/pablo.jpeg';
 
 const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) => {
@@ -6,6 +7,15 @@ const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) 
 
   
   return (
+    <AnimatePresence>
+    <motion.div
+              style={{ overflow: "hidden" }}
+              key={position}
+              layout
+              initial={{ transform: "scale(0)" }}
+              animate={{ transform: "scale(1)" }}
+              exit={{ transform: "scale(0)" }}
+            >
     <div
       className={`testPanel${
         isActive ? " active" : ""
@@ -28,6 +38,8 @@ const TestimonialCard = ({ quote, author, image, isActive, twitter, position }) 
             </div>
         </div>
     </div>
+    </motion.div>
+    </AnimatePresence>
   );
 };
 
