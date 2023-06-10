@@ -33,7 +33,7 @@ function Home() {
      
       {/*  Site footer */}
       <Newsletter />
-      <StepForm />
+      {/* <StepForm /> */}
       <Footer />
 
     </div>
