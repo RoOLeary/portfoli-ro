@@ -64,7 +64,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">The Next Web</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com">The Next Web</a> - A Financial Times Company. Led architecture and development of multisite CMS.
+                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com" className="text-red-500">The Next Web</a> - A Financial Times Company. Led architecture and development of multisite CMS.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -80,7 +80,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">TNW Conference</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com">The Next Web</a>. Developed full suite of conference sites using Craft CMS, React and NextJS</div>
+                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com">The Next Web</a>. Developed full suite of conference sites using Craft CMS, React and NextJS <a href="https://thenextweb.com/conference">TNN Conference</a></div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +96,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">TNN Valencia</div>
-                    <div className="text-gray-600">Formerly Web Development Team lead at Web Summit, joined at the point of scaling, lead CMS development and platform migration.</div>
+                    <div className="text-gray-600">Developed CMS/site architecture for the company's first event in <a href="https://thenextweb.com/valencia">Valencia.</a></div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +113,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Web Summit</div>
-                    <div className="text-gray-600">Formerly Web Development Team lead at Web Summit, joined at the point of scaling, lead CMS development and platform migration.</div>
+                    <div className="text-gray-600">Formerly Web Development Team lead at <a href="https://websummit.com" className="text-red-500">Web Summit</a>, joined at the point of scaling, lead CMS development and platform migration.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -129,7 +129,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
-                    <div className="text-gray-600">CMS and application development for Fractional CTO concern based in Dublin. Craft CMS, NextJS 13.4+</div>
+                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> concern based in Dublin. Craft CMS, NextJS 13.4+, Tailwind/styled-components</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -145,7 +145,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">BLiP Sports</div>
-                    <div className="text-gray-600">CMS and application development for Fractional CTO concernn based in Dublin. Craft CMS, NextJS 13.4+</div>
+                    <div className="text-gray-600">CMS and application development for <a href="https://blpmedia.vercel.app" className="text-red-500">sports news publicationn</a>. Headless Craft CMS, NextJS 13.4+, Tailwind/styled-components. Currently in dev. Mostly for demo purposes. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
