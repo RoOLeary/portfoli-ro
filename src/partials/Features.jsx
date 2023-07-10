@@ -80,7 +80,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">TNW Conference</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com">The Next Web</a>. Developed full suite of conference sites using Craft CMS, React and NextJS <a href="https://thenextweb.com/conference">TNN Conference</a></div>
+                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com">The Next Web</a>. Developed full suite of conference sites using Craft CMS, React and NextJS <a href="https://thenextweb.com/conference" className="text-red-500">TNN Conference</a></div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
