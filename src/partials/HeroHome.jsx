@@ -35,7 +35,7 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Hi, I'm Ronan.<br />I build <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-300 to-red-600">websites & teams.</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Hi, I'm Ronan. <br />I make <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-300 to-red-600">websites & build teams.</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Originally from Dublin, Ireland, now based in Amsterdam, I'm a versatile web professional and with over 13 years experience developing, scaling and optimising large scale websites and applications. My current favourite tools/weapons of choice: Nextjs, Payload CMS, Craft CMS, WordPress, React, Tailwind and Typescript.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
