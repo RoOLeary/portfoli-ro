@@ -129,7 +129,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
-                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> concern based in Dublin. Craft CMS, NextJS 13.4+, Tailwind/styled-components</div>
+                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> concern based in Dublin. Payload CMS, NextJS, Tailwind/styled-components</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -145,7 +145,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">BLiP Sports</div>
-                    <div className="text-gray-600">CMS and application development for <a href="https://blpmedia.vercel.app" className="text-red-500">sports news publication</a>. Headless Craft CMS, NextJS 13.4+, Tailwind/styled-components. Currently in dev. Mostly for demo purposes. </div>
+                    <div className="text-gray-600">CMS and application development for <a href="https://blpmedia.vercel.app" className="text-red-500">sports news publication</a>. Headless Craft CMS, NextJS, Tailwind/styled-components. Currently in dev. Mostly for demo purposes. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
