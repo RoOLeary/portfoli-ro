@@ -28,7 +28,7 @@ function Footer() {
           </div> 
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4 pb-12 text-center">© 2023 Ronan O'Leary. Made with <span className="text-red-500">&hearts;</span> in Amsterdam by Lil 'Ol Me.</div>
+          <div className="text-sm text-gray-600 mr-4 pb-12 text-center">© 2023 Ronan O'Leary. Made with <span className="text-red-500">&hearts;</span> in Amsterdam by <a class="text-black font-black" href="https://busylittlepixels.com" target="_blank" rel="noopener nofollow">busy<span className="text-red-500">little</span>pixels</a></div>
 
       
       </div>
