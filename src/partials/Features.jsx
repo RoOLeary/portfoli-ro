@@ -44,7 +44,9 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Skills and Experience</h1>
             <p className="text-xl text-gray-600">I am an experienced Web Developer, Manager, Tech Lead, CTO and Consultant. For over a decade, I have been honing my web development and team building/management skills, whilst working 
-              with several large brands - primarily in the advertising, events, media, recruitment and ecommerce spaces - and formulated and implemented web and digital strategies for huge audiences. <br /><br />I also really love building websites! I'm a huge proponent of headless development and an ardent supporter of the mighty <a href="https://www.liverpoolfc.com/" className="text-red-700" target="_blank">Liverpool FC</a>.  
+              with multiple large companies and brands - primarily in the advertising, events, media, recruitment and ecommerce spaces - and formulated and implemented web and digital strategies for huge audiences. 
+              <br /><br />
+              I also really love building websites! I'm a huge proponent of headless development and an ardent supporter of the mighty <a href="https://www.liverpoolfc.com/" className="text-red-700" target="_blank">Liverpool FC</a>.  
             </p>
           </div>
 
@@ -97,7 +99,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">TNN Valencia</div>
-                    <div className="text-gray-600">Developed CMS/site architecture for the company's first event in <a href="https://thenextweb.com/valencia">Valencia.</a></div>
+                    <div className="text-gray-600">Developed CMS/site architecture for the company's first event in <a href="https://thenextweb.com/valencia" className="text-red-500">Valencia, Spain.</a></div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
