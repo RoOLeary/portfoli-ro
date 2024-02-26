@@ -10,6 +10,7 @@ import TNWConf from '../images/tnw-conf.png';
 import Valencia from '../images/tnw-valencia.png';
 import BlpBg from '../images/blp.png';
 import BlpMedia from '../images/blpmedia.png';
+import picnic from '../images/picnic.png';
 
 
 function Features() {
@@ -129,7 +130,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
-                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> concern based in Dublin. Payload CMS, NextJS, Tailwind/styled-components</div>
+                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> concern based in Dublin. Craft CMS, NextJS, Tailwind/styled-components</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -138,14 +139,16 @@ function Features() {
                   </div>
                 </a>
 
+               
+
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 6 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(6); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">BLiP Sports</div>
-                    <div className="text-gray-600">CMS and application development for <a href="https://blpmedia.vercel.app" className="text-red-500">sports news publication</a>. Headless Craft CMS, NextJS, Tailwind/styled-components. Currently in dev. Mostly for demo purposes. </div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Picnic Technologies</div>
+                    <div className="text-gray-600">Tech Lead of <a href="https://picnic.app" className="text-red-500">Picnic</a> Web Team. Advanced, bespoke, headless CMS, NextJS, Tailwind. <br />Project/Team/Workflow management for the fastest growing tech company in The Netherlands, Germany and France. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -256,6 +259,9 @@ function Features() {
                   </a>
                 </Transition>
                 {/* Item 3 */}
+          
+               
+
                 <Transition
                   show={tab === 6}
                   appear={true}
@@ -267,9 +273,9 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <a href="https://busylittlepixels.com">
+                  <a href="https://picnic.app">
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={BlpMedia} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={picnic} width="500" height="462" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                   </a>
