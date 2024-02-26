@@ -196,7 +196,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <a href="https://websummit.com">
+                  <a href="https://thenextweb.com/conference">
                     <div className="relative inline-flex flex-col">
                       <img className="md:max-w-none mx-auto rounded" src={TNWConf} width="500" height="462" alt="Features bg" />
                       {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
@@ -215,7 +215,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <a href="https://busylittlepixels.com">
+                  <a href="https://thenextweb.com/valencia">
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={Valencia} width="500" height="462" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
@@ -234,7 +234,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <a href="https://busylittlepixels.com">
+                  <a href="https://websummit.com">
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={WSBg} width="500" height="462" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
@@ -276,10 +276,10 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <a href="https://picnic.app">
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={picnic} width="500" height="462" alt="Features bg" />
-                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
-                  </div>
+                    <div className="relative inline-flex flex-col">
+                      <img className="md:max-w-none mx-auto rounded" src={picnic} width="500" height="462" alt="Features bg" />
+                      {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
+                    </div>
                   </a>
                 </Transition>
               </div>
