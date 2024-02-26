@@ -65,7 +65,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">The Next Web</div>
-                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com" className="text-red-500">The Next Web</a> - A Financial Times Company. Led architecture and development of multisite CMS.
+                    <div className="text-gray-600">Former CTO and Senior Developer/Engineering Manager at <a href="https://thenextweb.com" className="text-red-500">The Next Web</a> - A Financial Times Company. Led architecture and development of multisite CMS with Craft CMS and React.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
