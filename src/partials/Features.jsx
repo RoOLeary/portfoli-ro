@@ -44,7 +44,7 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Skills and Experience</h1>
             <p className="text-xl text-gray-600">I am an experienced Web Developer, Manager, Tech Lead, CTO and Consultant. For over a decade, I have been honing my web development and team building/management skills, whilst working 
-              with several large brands - primarily in the advertising, events and media spaces - and formulated and implemented web and digital strategies for huge audiences. <br /><br />I also really love building websites! I'm a huge proponent of headless development and (sometimes) dream in Javascript. 
+              with several large brands - primarily in the advertising, events, media, recruitment and ecommerce spaces - and formulated and implemented web and digital strategies for huge audiences. <br /><br />I also really love building websites! I'm a huge proponent of headless development and (sometimes) dream in Javascript. 
             </p>
           </div>
 
