@@ -150,7 +150,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Picnic Technologies</div>
-                    <div className="text-gray-600">Tech Lead of <a href="https://picnic.app" className="text-red-500">Picnic</a> Web Team. Advanced, bespoke, headless CMS, NextJS, Tailwind. <br />Project/Team/Workflow management for the fastest growing tech company in The Netherlands, Germany and France. </div>
+                    <div className="text-gray-600">Tech Lead of <a href="https://jobs.picnic.app/en" className="text-red-500">Picnic</a> Web Team. Advanced, bespoke, headless CMS, NextJS, Tailwind. <br />Project/Team/Workflow management for the fastest growing tech company in The Netherlands, Germany and France. Architected and lead development of Picnic's unified recruitment site. A headless instance using NextJS.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -293,7 +293,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <a href="https://picnic.app">
+                  <a href="https://jobs.picnic.app/en">
                     <div className="relative inline-flex flex-col">
                       <img className="md:max-w-none mx-auto rounded" src={picnic2} width="500" height="462" alt="Features bg" />
                       {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
