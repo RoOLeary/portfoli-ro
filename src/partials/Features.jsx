@@ -9,8 +9,8 @@ import TNWBg from '../images/tnw.png';
 import TNWConf from '../images/tnw-conf.png';
 import Valencia from '../images/tnw-valencia.png';
 import BlpBg from '../images/blp.png';
-import BlpMedia from '../images/blpmedia.png';
-import picnic from '../images/picnic.png';
+import picnic2 from '../images/picnic2.png';
+import circle8 from '../images/circle8.png';
 
 
 function Features() {
@@ -158,6 +158,24 @@ function Features() {
                     </svg>
                   </div>
                 </a>
+
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 7 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(7); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Circle8</div>
+                    <div className="text-gray-600">Developed using StoryBlok and NextJS, <a href="https://circle8.nl" className="text-red-500">Circle8</a>. Custom recrutiment site implementing custom ATS integration.
+                    Frontend and CMS Development.
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
+                    </svg>
+                  </div>
+                </a>
                 
               </div>
             </div>
@@ -277,7 +295,25 @@ function Features() {
                 >
                   <a href="https://picnic.app">
                     <div className="relative inline-flex flex-col">
-                      <img className="md:max-w-none mx-auto rounded" src={picnic} width="500" height="462" alt="Features bg" />
+                      <img className="md:max-w-none mx-auto rounded" src={picnic2} width="500" height="462" alt="Features bg" />
+                      {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
+                    </div>
+                  </a>
+                </Transition>
+                <Transition
+                  show={tab === 7}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <a href="https://circle8.nl">
+                    <div className="relative inline-flex flex-col">
+                      <img className="md:max-w-none mx-auto rounded" src={circle8} width="500" height="462" alt="Features bg" />
                       {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </a>
