@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
-function Banner() {
-
+function Banner(props) {
+  // console.log(props.text);
   const [bannerOpen, setBannerOpen] = useState(true);
 
   return (
     <>
     { bannerOpen && (
-      <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60">
-        
+      <div className="flex p-4 w-full md:bottom-8 md:w-auto z-60 bg-red-500 text-white font-black mb-4">
+       {props?.text ? props.text : 'Optimistic Text Here'}
       </div>
     )}
     </>
