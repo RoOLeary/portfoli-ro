@@ -7,7 +7,7 @@ function Banner(props) {
   return (
     <>
     { bannerOpen && (
-      <div className="fixed-top sticky p-4 w-full md:bottom-8 md:w-auto z-60 bg-yellow-500 border-y-8 py-2 border-y-red-700 text-white font-black text-center mb-4">
+      <div className="fixed-top sticky p-4 w-full md:bottom-8 md:w-auto z-60 bg-yellow-500 border-y-[10px] py-2 border-y-red-700 text-white font-black text-center">
        {props?.text ? props.text : 'Optimistic Text Here'}
       </div>
     )}
