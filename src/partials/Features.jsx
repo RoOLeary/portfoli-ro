@@ -137,7 +137,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels (Mobile)</div>
-                    <div className="text-gray-600">Developed using React Native and Supabase. Showcase of mobile-first, full stack hybrid app.
+                    <div className="text-gray-600">Scalable, flexible mobile application scaffold using React Native and Supabase. Showcase of mobile-first, full stack hybrid app.
                     Frontend and CMS Development.
                     </div>
                   </div>
