@@ -98,23 +98,6 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">TNN Valencia</div>
-                    <div className="text-gray-600">Developed CMS/site architecture for the company's first event in <a href="https://thenextweb.com/valencia" className="text-red-500">Valencia, Spain.</a></div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
-                
-                
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(4); }}
-                >
-                  <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Web Summit</div>
                     <div className="text-gray-600">Formerly Web Development Team lead at <a href="https://websummit.com" className="text-red-500">Web Summit</a>, joined at the point of scaling, lead CMS development and platform migration.</div>
                   </div>
@@ -126,13 +109,37 @@ function Features() {
                 </a>
 
                 <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(4); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
+                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> company with offices in Amsterdam and Dublin. Craft CMS, NextJS, Tailwind/styled-components</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
+                    </svg>
+                  </div>
+                </a>
+                
+                
+
+                
+                
+               
+
+                <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(5); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
-                    <div className="text-gray-600">CMS and application development for <a href="https://busylittlepixels.com" className="text-red-500">Fractional CTO</a> company with offices in Amsterdam and Dublin. Craft CMS, NextJS, Tailwind/styled-components</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels (Mobile)</div>
+                    <div className="text-gray-600">Developed using React Native and Supabase. Showcase of mobile-first, full stack hybrid app.
+                    Frontend and CMS Development.
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -176,6 +183,23 @@ function Features() {
                     </svg>
                   </div>
                 </a>
+
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(8); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">TNN Valencia</div>
+                    <div className="text-gray-600">Developed CMS/site architecture for the company's first event in <a href="https://thenextweb.com/valencia" className="text-red-500">Valencia, Spain.</a></div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
+                    </svg>
+                  </div>
+                </a>
+                
                 
               </div>
             </div>
@@ -203,6 +227,7 @@ function Features() {
                   </a>
                 </Transition>
                 {/* Item 2 */}
+                
                 <Transition
                   show={tab === 2}
                   appear={true}
@@ -222,27 +247,11 @@ function Features() {
                   </a>
                 </Transition>
                 {/* Item 3 */}
-                <Transition
-                  show={tab === 3}
-                  appear={true}
-                  className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
-                  enterStart="opacity-0 translate-y-16"
-                  enterEnd="opacity-100 translate-y-0"
-                  leave="transition ease-in-out duration-300 transform absolute"
-                  leaveStart="opacity-100 translate-y-0"
-                  leaveEnd="opacity-0 -translate-y-16"
-                >
-                  <a href="https://thenextweb.com/valencia">
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={Valencia} width="500" height="462" alt="Features bg" />
-                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
-                  </div>
-                  </a>
-                </Transition>
+                
+                
                 {/* Item 3 */}
                 <Transition
-                  show={tab === 4}
+                  show={tab === 3}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -261,7 +270,7 @@ function Features() {
                 </Transition>
                 {/* Item 3 */}
                 <Transition
-                  show={tab === 5}
+                  show={tab === 4}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -280,6 +289,36 @@ function Features() {
                 </Transition>
                 {/* Item 3 */}
           
+                <Transition
+                  show={tab === 5}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <a href="https://blpwebsite-2-0.vercel.app">
+                    <div className="relative inline-flex flex-col">
+                      {/* Embed video instead of image */}
+                      <video 
+                        className="md:max-w-none mx-auto rounded" 
+                        width="500" 
+                        height="462" 
+                        controls 
+                        autoPlay 
+                        loop 
+                        muted
+                      >
+                        <source src={'https://blpwp.frb.io/wp-content/uploads/2024/09/busylittleapp.mp4'} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </a>
+                </Transition>
+            
                
 
                 <Transition
@@ -320,9 +359,25 @@ function Features() {
                 </Transition>
               </div>
             </div >
-
+            <Transition
+                  show={tab === 8}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <a href="https://thenextweb.com/valencia">
+                  <div className="relative inline-flex flex-col">
+                    <img className="md:max-w-none mx-auto rounded" src={Valencia} width="500" height="462" alt="Features bg" />
+                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
+                  </div>
+                  </a>
+                </Transition>
           </div >
-
         </div >
       </div >
     </section >
