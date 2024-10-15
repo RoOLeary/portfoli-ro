@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image.png';
-import Pdf from '../assets/RoOLeary_CV2024.pdf';
+import Pdf from '../assets/CVROL2024.pdf';
 
 function HeroHome() {
 
@@ -35,9 +35,9 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Hi, I'm Ronan,  <br />& I make <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-300 to-red-600">websites </span>& mobile apps.</h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Hi, I'm Ronan,  <br />& I make <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-300 to-red-600">websites.</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Originally from 🇮🇪, based in 🇳🇱,  I'm a versatile web and mobile developer with over 14 years experience building, scaling and optimising large scale websites and applications. My current favourite tools/weapons of choice: Next JS/React (Typescript), React-Native, Craft CMS, WordPress, Shopify, Laravel, Supabase, Node JS and Tailwind...to name but a few.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Originally from 🇮🇪, based in 🇳🇱,  I'm a versatile web professional and with over 14 years experience developing, scaling and optimising large scale websites and applications. My current favourite tools/weapons of choice: Next JS/React (Typescript), React-Native, Craft CMS, WordPress, Shopify, Laravel, Supabase, Node JS and Tailwind...to name but a few.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#about">Skills/Experience</a>
