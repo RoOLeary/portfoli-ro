@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image.png';
-import Pdf from '../assets/CVROL2024.pdf';
+import Pdf from '../assets/CVROL2024_web.pdf';
 
 function HeroHome() {
 
