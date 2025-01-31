@@ -5,7 +5,6 @@ import HeroImage from '../images/hero-image.png';
 import Pdf from '../assets/CVROL2024_web.pdf';
 
 function HeroHome() {
-
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
