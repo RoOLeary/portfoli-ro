@@ -115,7 +115,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Busy Little Pixels</div>
-                    <div className="text-gray-600">CMS and application development for a software and AI company based in Amsterdam, NL. Payload CMS, NextJS, Tailwind/styled-components</div>
+                    <div className="text-gray-600">Founder and builder of <a href="https://busylittlepixels.com"><span className="text-red-500 font-bold">busy</span><span className="text-black font-bold">little</span><span className="text-red-500 font-bold">pixels</span></a>, a software and AI company based in Amsterdam, NL. Payload CMS, NextJS, Tailwind/styled-components</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
