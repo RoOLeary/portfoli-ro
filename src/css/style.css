@@ -64,3 +64,78 @@
     display: block;
     opacity: 1;
 }
+
+
+#sail-group {
+    transform-origin: 32.5px 24.5px;
+    transition: all 1.5s ease-in-out;
+  }
+  
+  svg:hover #sail-group {
+    transform: rotate(360deg);
+    transition: all 1.5s ease-in-out;
+  }
+  
+  svg #sail-group > rect,
+  svg #sail-group > line {
+    fill: none;
+  }
+  
+  svg:hover #sail-group > rect,
+  svg:hover #sail-group > line {
+    fill: #f00;
+    
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(-180deg);
+    }
+  }
+  
+  .main-circle {
+    background-color: #0c272e;
+    border-radius: 50%;
+    height: 300px;
+    margin: 15px auto;
+    position: relative;
+    width: 300px;
+  }
+  
+  .main-circle > svg {
+    animation: rotate 5s infinite linear;
+    height: 362px;
+    left: -31px;
+    position: absolute;
+    top: -31px;
+    width: 362px;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .windmill{
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+  }
+  
+      
+  
+  #windmillIcon{
+    height: 40px; 
+    width: 35px; 
+  }
+    
+  @media screen and (max-width: 670px){
+    #windmillIcon{
+      margin: 0 auto;
+      right: 0!important; 
+    }
+  }

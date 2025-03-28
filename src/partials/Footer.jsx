@@ -1,7 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { WindMill } from './WindMill';
 
 function Footer() {
+
+  const goToTop = (event) => {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -28,7 +38,14 @@ function Footer() {
           </div> 
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4 pb-12 text-center">© 2024 Ronan O'Leary. Made with <span className="text-red-500">&hearts;</span> in Amsterdam by <a class="text-black font-black" href="https://busylittlepixels.com" target="_blank" rel="noopener nofollow">busy<span className="text-red-500">little</span>pixels</a></div>
+          <div className="flex items-center justify-between">          
+            <div className="text-sm text-gray-600 mr-4 pb-4 text-center">© {`${new Date().getFullYear()} `} Ronan O'Leary. Made with <span className="text-red-500">&hearts;</span> in Amsterdam by <a class="text-black font-black" href="https://busylittlepixels.com" target="_blank" rel="noopener nofollow">busy<span className="text-red-500">little</span>pixels</a></div>
+            <div className="flex flex-col items-center justify-center pb-4">
+              <a onClick={(event) => goToTop(event)} className="cursor-pointer">
+                <WindMill />
+              </a>
+            </div>
+          </div>
 
       
       </div>
