@@ -43,7 +43,7 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Skills and Experience</h1>
-            <p className="text-xl text-gray-600">I am an experienced Web Developer, Manager, Tech Lead, CTO, Consultant and Cat-Valet. For over a decade, I have been honing my web development and team building/management skills, whilst working 
+            <p className="text-xl text-gray-600">I am a highly experienced Developer, former CTO, Manager, Tech Lead and Cat-Valet. For over a decade, I have been honing my web development and team building/management skills, whilst working 
               with multiple large companies and brands - primarily in the advertising, events, media, recruitment and ecommerce spaces - and formulated web and digital strategies for huge audiences. 
               <br /><br />
               Basically, I love building websites and mobile applications. I'm a huge proponent of headless development and an ardent supporter of the mighty <a href="https://www.liverpoolfc.com/" className="text-red-700" target="_blank">Liverpool FC</a>.  
