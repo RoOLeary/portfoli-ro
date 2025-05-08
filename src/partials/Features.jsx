@@ -10,8 +10,7 @@ import TNWConf from '../images/tnw-conf.png';
 import Valencia from '../images/tnw-valencia.png';
 import BlpBg from '../images/blp.png';
 import picnic2 from '../images/picnic2.png';
-import circle8 from '../images/circle8.png';
-
+import flutterpass from '../images/flutterpass.png';
 
 function Features() {
 
@@ -171,9 +170,9 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(7); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Circle8</div>
-                    <div className="text-gray-600">Developed using StoryBlok and NextJS, <a href="https://circle8.nl" className="text-red-500">Circle8</a>. Custom recrutiment site implementing custom ATS integration.
-                    Frontend and CMS Development.
+                    <div className="font-bold leading-snug tracking-tight mb-1">FlutterPass</div>
+                    <div className="text-gray-600">Multi-tenant Event and Ticket management platfrom using NextJS, Supabase and React Native. <a href="https://flutterpass.com" className="text-red-500">Visit FlutterPass</a>. 
+                    
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -349,9 +348,9 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <a href="https://circle8.nl">
+                  <a href="https://flutterpass.com">
                     <div className="relative inline-flex flex-col">
-                      <img className="md:max-w-none mx-auto rounded" src={circle8} width="500" height="462" alt="Features bg" />
+                      <img className="md:max-w-none mx-auto rounded" src={flutterpass} width="500" height="462" alt="Features bg" />
                       {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </a>
